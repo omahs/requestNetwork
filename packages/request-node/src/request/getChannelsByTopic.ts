@@ -28,6 +28,7 @@ export default class GetChannelHandler {
     clientRequest.setTimeout(GET_CHANNELS_TIMEOUT);
 
     const { updatedBetween, topic } = clientRequest.query;
+    console.log(clientRequest.query);
     // Verifies if data sent from get request are correct
     // clientRequest.query is expected to contain the topic of the transactions to search for
     if (!topic || typeof topic !== 'string') {
