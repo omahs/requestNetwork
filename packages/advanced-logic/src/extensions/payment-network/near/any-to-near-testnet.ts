@@ -1,4 +1,4 @@
-import { CurrencyTypes } from 'types/dist';
+import { CurrencyTypes } from '@requestnetwork/types';
 import AnyToNearPaymentNetwork from './any-to-near';
 
 export default class AnyToNearTestnetPaymentNetwork extends AnyToNearPaymentNetwork {
