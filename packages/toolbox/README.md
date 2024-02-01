@@ -46,7 +46,7 @@ If you receive the following error
 error Command "request-toolbox" not found.
 ```
 
-then build the toolbox package like bellow:
+then build the toolbox package like below:
 
 ```bash
 cd packages/toolbox
